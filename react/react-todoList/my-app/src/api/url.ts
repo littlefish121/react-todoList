@@ -1,4 +1,4 @@
-let baseUrl1 = "httpx://192.168.188.20:8080"; //地址1
+let baseUrl1 = "http://192.168.188.20:8080"; //地址1
 if (process.env.NODE_ENV === "production") {
     baseUrl1  = "你的线上地址"
 }
